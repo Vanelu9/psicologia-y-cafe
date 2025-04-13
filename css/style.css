@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquarda+Bastarda+9&family=Moon+Dance&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;400&display=swap');
+/*font family: "Dancing Script", cursive*/
+/*class: kebap*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/*practica disenio responsive
+@media (max-width:600px){
+    body{
+        background-color: black;
+    }
+    }
+
+@media (min-width:600px){
+    body{
+        background-color: yellow;
+    }
+}
+
+El max-width: HASTA esa cantidad de px. Si los paso, ya no aplicara. Ej. 601 px, YA NO APLICA EL BACKGROUND COLOR BLACK. 540 SI
+El min-width: DESDE esa cantidad de px. Si es menos, no aplica. eL BACKGROUND COLOR YELLOW APLICA A PARTIR DE 600 PX. 731 PX, ES YELLOW. 
+MENOS DE 600, EJ. 599, NO ES YELLOW.
+*/
+
+.header{
+    background-color: rosybrown;
+}
+
+h1{
+    font-family:"Dancing Script", cursive;
+}  
+
+.header h1{
+    font-family:"Dancing Script", cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+    background-color: rosybrown;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 5%;
+}  
+
+
+.barra-nav{
+    background-color:rosybrown;
+}
+
+.navbar2{
+    background-color: rosybrown;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly; /*Por que se borro este estilo cuando instale bootstrap?*/
+    align-items: center;
+}
+
+.navbar2 li{
+    list-style: none;
+}
+
+.navbar2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar2 li a:hover{
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+
+/*edicion index: aca empieza*/
+
+
+.main-index{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+} 
+.bienvenida{
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+.cita{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.taza-de-cafe{
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.bienvenida{
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding-top: 40px;
+    margin: 10px
+}
+
+.p1::first-letter{
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold
+}
+
+.cita{
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+
+.taza-de-cafe{
+    width: 100%;
+    border-radius: 40%;
+}
+
+/*aca termina la edicion del index*/
+
+
+/*edicion seccion sobre mi: use flex*/
+
+
+.sobremi1{
+    display: flex;
+}
+
+.foto-mia{
+    width: 15%;
+    border-radius: 30%;
+    border: ridge 1px ;
+    margin-top: 20px;
+}
+
+.texto1-sobremi{
+    background-color: grey ;
+    margin: 20px 10px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: ridge 4px;
+}
+
+.texto1-sobremi::first-letter{
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold
+}
+
+.texto2-sobremi{
+    background-color: grey;
+    padding: 2%;
+    margin: 10px;
+    width: 99%;
+    border-radius: 20px;
+    border: ridge 4px;
+}
+
+.texto2-sobremi span{
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+/*servicios*/
+
+.descripcion-servicios{
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.primera-consulta{
+    margin: 50px;
+    width: 200px;
+    padding:30px ;
+    border: 2px ridge;
+    margin: 20px ;
+    border-radius: 20px;
+    background-color: grey
+}
+
+.sesion-individual{
+    margin: 50px;
+    width: 200px;
+    padding:30px ;
+    border: 2px ridge;
+    margin: 20px ;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.pack{
+    margin: 50px;
+    width: 200px;
+    padding:30px ;
+    border: 2px ridge;
+    margin: 20px ;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+/*Preguntas frecuentes*/
+/*
+.main-faq{
+    width:100%;
+}
+
+.preguntas-faq{
+    padding: 40px;
+}
+
+.preguntas-faq li{
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 2px 2px 10px;
+    margin: 20px;
+    list-style-type: circle;
+    word-spacing: 1px;
+}
+*/
+
+.accordion-button{
+    font-weight: bold;
+    text-shadow: 2px 2px 10px;
+    word-spacing: 1px;
+}
+
+
+/*Contacto*/
+
+.texto-contacto{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    gap:5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgba(128, 128, 128, 0.103);
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+
+.foto-form{
+    width:20%;
+}
+
+.bottom{
+    text-align: center;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 128, 0, 0.39);
+}
+
+.bottom:active{
+    background-color: rgba(0, 128, 0, 0.705);
+}
+
+
+footer{
+    background-color: rosybrown;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.div-footer{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin:20px;
+    padding-right: 60px;
+    gap: 20px;
+}
+
+
+
+
+
