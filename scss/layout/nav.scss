@@ -1,0 +1,22 @@
+.navbar2{
+    background-color: rosybrown;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.navbar2 li{
+    list-style: none;
+}
+
+.navbar2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar2 li a:hover{
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: underline;
+}

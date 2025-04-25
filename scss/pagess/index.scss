@@ -1,0 +1,53 @@
+.main-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.bienvenida{
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+
+.cita{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+.taza-de-cafe{
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+.bienvenida{
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding-top: 40px;
+    margin: 10px;
+}
+
+.p1::first-letter{
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+}
+
+.cita{
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+.taza-de-cafe{
+    width: 100%;
+    border-radius: 40%;
+}

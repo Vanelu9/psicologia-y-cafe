@@ -1,0 +1,35 @@
+.texto-contacto{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container{
+    display:flex;
+    justify-content: center;
+    gap:5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgba(128, 128, 128, 0.103);
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+.foto-form{
+    width:20%;
+}
+
+.buttom{
+    text-align: center;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:  rgba(0, 128, 0, 0.39);
+}

@@ -1,0 +1,40 @@
+.sobremi1{
+    display:flex;
+}
+
+.foto-mia{
+    width:15%;
+    border-radius: 30%;
+    border: ridge 1px;
+    margin-top: 20px;
+}
+
+.texto1-sobremi{
+    background-color: grey;
+    margin:20px 10px;
+    padding:20px;
+    width:100%;
+    border-radius: 20px;
+    border:ridge 4px;
+}
+
+.texto1-sobremi::first-letter{
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+}
+
+.texto2-sobremi{
+    background-color: grey;
+    padding: 2%;
+    margin: 10px;
+    width:99%;
+    border-radius: 20px;
+    border: ridge 4px;
+}
+
+.texto2-sobremi span{
+    font-family: "Dancing Script", cusive;
+    font-weight: bold;
+    font-size: 20px;
+}

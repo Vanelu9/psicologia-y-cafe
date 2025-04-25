@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-para-el-curso",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanelu9/psicologia-y-cafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vanelu9/psicologia-y-cafe/issues"
+  },
+  "homepage": "https://github.com/Vanelu9/psicologia-y-cafe#readme",
+  "description": ""
+}

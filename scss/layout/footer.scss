@@ -1,0 +1,19 @@
+.footer{
+    background-color: rosybrown;
+    padding:20px;
+    width: 100px;
+    text-align: center;
+}
+
+.div-footer{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin:20px;
+    padding-right: 60px;
+    gap:20px;
+}
+
+footer p{
+    text-align: center;
+}
