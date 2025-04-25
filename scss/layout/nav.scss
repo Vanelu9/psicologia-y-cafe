@@ -20,3 +20,13 @@
     font-size: 18px;
     text-decoration: underline;
 }
+
+@media (max-width: 768px) and (max-width: 1024px){
+    .navbar2{
+      flex-direction: column;
+      align-items: center;
+      display:block
+    }
+}
+
+
