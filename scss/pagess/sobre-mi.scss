@@ -38,3 +38,19 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+@media (max-width: 768px) and (max-width: 480px){
+    .sobremi1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto-mia {
+        width: 40%;
+    }
+
+    .texto1-sobremi {
+        width: 90%;
+    }
+}
+

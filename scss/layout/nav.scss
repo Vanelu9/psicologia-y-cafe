@@ -21,11 +21,34 @@
     text-decoration: underline;
 }
 
-@media (max-width: 768px) and (max-width: 1024px){
-    .navbar2{
-      flex-direction: column;
-      align-items: center;
-      display:block
+@media (max-width: 768px) {
+    .navbar2 {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .menu-icon {
+        display: block;
+        align-self: flex-end;
+    }
+
+    .navbar2 ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar2 ul.active {
+        display: flex;
+    }
+
+    .navbar2 li {
+        width: 100%;
+        text-align: left;
+        padding: 10px 0;
     }
 }
 

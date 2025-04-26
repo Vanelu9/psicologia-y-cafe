@@ -72,11 +72,30 @@ h1 {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) and (max-width: 1024px) {
+@media (max-width: 768px) {
   .navbar2 {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 20px;
+  }
+  .menu-icon {
     display: block;
+    align-self: flex-end;
+  }
+  .navbar2 ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .navbar2 ul.active {
+    display: flex;
+  }
+  .navbar2 li {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
   }
 }
 .texto-contacto {
@@ -235,6 +254,29 @@ h1 {
   background-color: grey;
 }
 
+@media (max-width: 768px) {
+  .servicios {
+    flex-direction: column;
+    align-items: center;
+  }
+  .primera-consulta,
+  .sesion-individual,
+  .pack {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) and (max-width: 480px) {
+  .primera-consulta,
+  .sesion-individual,
+  .pack {
+    width: 95%;
+    padding: 20px;
+  }
+  .descripcion-servicios {
+    padding: 30px;
+    font-size: 16px;
+  }
+}
 .sobremi1 {
   display: flex;
 }
@@ -274,6 +316,19 @@ h1 {
   font-family: "Dancing Script", cusive;
   font-weight: bold;
   font-size: 20px;
+}
+
+@media (max-width: 768px) and (max-width: 480px) {
+  .sobremi1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .foto-mia {
+    width: 40%;
+  }
+  .texto1-sobremi {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
